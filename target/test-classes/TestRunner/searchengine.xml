@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SearhEngine Assignment" thread-count="3" parallel="tests" verbose="4">
+	<test name="Search Engine">
+		<classes>
+			   <class name="com.searchengine.qa.tests.SearchEngineTest"/>
+		</classes>
+	</test>
+</suite>
