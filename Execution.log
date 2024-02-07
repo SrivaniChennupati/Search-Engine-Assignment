@@ -1,8 +1,8 @@
-01 Feb 2024 17:20:44,058 main - Running the test cases locally on....chrome
-01 Feb 2024 17:20:54,086 main - Assertion Passed for Search Term: jobs-noreply@linkedin.com is legitimate?
-01 Feb 2024 17:20:54,946 main - Running the test cases locally on....chrome
-01 Feb 2024 17:21:08,997 main - Assertion Passed for Search Term: SpaceX rocket launches schedule
-01 Feb 2024 17:21:10,112 main - Running the test cases locally on....chrome
-01 Feb 2024 17:21:23,145 main - Assertion Passed for Search Term:  Python 3.8 programming
-01 Feb 2024 17:21:24,073 main - Running the test cases locally on....chrome
-01 Feb 2024 17:21:34,982 main - Assertion Passed for Search Term: 2024 Science & Technology trends
+06 Feb 2024 23:34:38,050 TestNG-tests-1 - Running the test cases locally on....chrome
+06 Feb 2024 23:34:43,138 TestNG-tests-1 - Assertion Passed for Search Term: jobs-noreply@linkedin.com is legitimate?
+06 Feb 2024 23:34:43,901 TestNG-tests-1 - Running the test cases locally on....chrome
+06 Feb 2024 23:34:49,141 TestNG-tests-1 - Assertion Passed for Search Term: SpaceX rocket launches schedule
+06 Feb 2024 23:34:49,887 TestNG-tests-1 - Running the test cases locally on....chrome
+06 Feb 2024 23:34:53,888 TestNG-tests-1 - Assertion Passed for Search Term:  Python 3.8 programming
+06 Feb 2024 23:34:54,612 TestNG-tests-1 - Running the test cases locally on....chrome
+06 Feb 2024 23:35:00,952 TestNG-tests-1 - Assertion Passed for Search Term: 2024 Science & Technology trends

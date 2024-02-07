@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Assertion Passed for Search Term: jobs-noreply@linkedin.com is legitimate?]]>
-    </line>
-    <line>
-      <![CDATA[Assertion Passed for Search Term: SpaceX rocket launches schedule]]>
-    </line>
-    <line>
-      <![CDATA[Assertion Passed for Search Term:  Python 3.8 programming]]>
-    </line>
-    <line>
-      <![CDATA[Assertion Passed for Search Term: 2024 Science & Technology trends]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-01T23:20:43Z" name="Default suite" finished-at="2024-02-01T23:21:36Z" duration-ms="52048">
+  <suite started-at="2024-02-07T05:34:38Z" name="SearchEngine Assignment" finished-at="2024-02-07T05:35:01Z" duration-ms="23615">
     <groups>
     </groups>
-    <test started-at="2024-02-01T23:20:43Z" name="Default test" finished-at="2024-02-01T23:21:36Z" duration-ms="52048">
+    <test started-at="2024-02-07T05:34:38Z" name=" Google Search Engine" finished-at="2024-02-07T05:35:01Z" duration-ms="23615">
       <class name="com.searchengine.qa.tests.SearchEngineTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:20:44Z" name="setUp" finished-at="2024-02-01T23:20:51Z" duration-ms="7537" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:38Z" name="setUp" finished-at="2024-02-07T05:34:41Z" duration-ms="3642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:20:51Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-01T23:20:54Z" duration-ms="2513" status="PASS">
+        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:41Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-07T05:34:43Z" duration-ms="1452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,20 +27,24 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Assertion Passed for Search Term: jobs-noreply@linkedin.com is legitimate?]]>
-            </line>
           </reporter-output>
         </test-method> <!-- searchAndVerifyFirstResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:20:54Z" name="tearDown" finished-at="2024-02-01T23:20:54Z" duration-ms="855" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:43Z" name="tearDown" finished-at="2024-02-07T05:34:43Z" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:20:54Z" name="setUp" finished-at="2024-02-01T23:21:02Z" duration-ms="7942" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:43Z" name="setUp" finished-at="2024-02-07T05:34:46Z" duration-ms="2619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:02Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-01T23:21:08Z" duration-ms="6110" status="PASS">
+        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:46Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-07T05:34:49Z" duration-ms="2622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,20 +53,24 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Assertion Passed for Search Term: SpaceX rocket launches schedule]]>
-            </line>
           </reporter-output>
         </test-method> <!-- searchAndVerifyFirstResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:08Z" name="tearDown" finished-at="2024-02-01T23:21:10Z" duration-ms="1110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:49Z" name="tearDown" finished-at="2024-02-07T05:34:49Z" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:10Z" name="setUp" finished-at="2024-02-01T23:21:16Z" duration-ms="6588" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:49Z" name="setUp" finished-at="2024-02-07T05:34:52Z" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:16Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-01T23:21:23Z" duration-ms="6447" status="PASS">
+        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:52Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-07T05:34:53Z" duration-ms="1486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,20 +79,24 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Assertion Passed for Search Term:  Python 3.8 programming]]>
-            </line>
           </reporter-output>
         </test-method> <!-- searchAndVerifyFirstResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:23Z" name="tearDown" finished-at="2024-02-01T23:21:24Z" duration-ms="921" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:53Z" name="tearDown" finished-at="2024-02-07T05:34:54Z" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:24Z" name="setUp" finished-at="2024-02-01T23:21:29Z" duration-ms="5595" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:54Z" name="setUp" finished-at="2024-02-07T05:34:57Z" duration-ms="2426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:29Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-01T23:21:34Z" duration-ms="5318" status="PASS">
+        <test-method signature="searchAndVerifyFirstResult(java.lang.String)[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:34:57Z" name="searchAndVerifyFirstResult" data-provider="getTestData" finished-at="2024-02-07T05:35:00Z" duration-ms="3915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,16 +105,13 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Assertion Passed for Search Term: 2024 Science & Technology trends]]>
-            </line>
           </reporter-output>
         </test-method> <!-- searchAndVerifyFirstResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@e57b96d]" started-at="2024-02-01T23:21:34Z" name="tearDown" finished-at="2024-02-01T23:21:36Z" duration-ms="1026" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.searchengine.qa.tests.SearchEngineTest@485966cc]" started-at="2024-02-07T05:35:00Z" name="tearDown" finished-at="2024-02-07T05:35:01Z" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.searchengine.qa.tests.SearchEngineTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!--  Google Search Engine -->
+  </suite> <!-- SearchEngine Assignment -->
 </testng-results>

@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="searchAndVerifyFirstResult" invocation-numbers="3"/>
+          <include name="searchAndVerifyFirstResult"/>
         </methods>
       </class> <!-- com.searchengine.qa.tests.SearchEngineTest -->
     </classes>

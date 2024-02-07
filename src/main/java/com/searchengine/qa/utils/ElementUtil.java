@@ -174,5 +174,15 @@ public class ElementUtil {
 		ac.click(getElement(locator)).build().perform();
 
 	}
-
+    
+	/**
+	 * This method returns current URL as a string
+	 * @return
+	 */
+	
+	public String doGetCurrentURL() {
+		
+		return driver.getCurrentUrl();
+		
+	}
 }
