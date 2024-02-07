@@ -52,7 +52,6 @@ public class BaseTest {
 			searchEngineUrl = prop.getProperty("yahooSearchEngineUrl");
 			break;
 		default:
-			// Default to Google if no valid search engine type is provided
 			 LOG.error("Invalid search engine type provided: " + searchEnginetype);
 			 break;
 		}
