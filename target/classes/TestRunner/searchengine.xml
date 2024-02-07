@@ -8,18 +8,18 @@
         </classes>
     </test>
      
-   <!-- <test name=" Bing Search Engine">
+    <test name=" Bing Search Engine">
         <parameter name="searchEngine" value="bing" />
         <classes>
             <class name="com.searchengine.qa.tests.SearchEngineTest" />
         </classes>
-    </test>-->
-    <!--
+    </test>
+    
      <test name=" Yahoo Search Engine">
         <parameter name="searchEngine" value="yahoo" />
         <classes>
             <class name="com.searchengine.qa.tests.SearchEngineTest" />
         </classes>
-    </test>-->
+    </test>
     
 </suite>
